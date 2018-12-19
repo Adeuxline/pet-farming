@@ -6,7 +6,7 @@ Vue.directive('sortable', {
 });
 
 const originalData = {
-  version: '2.1.1',
+  version: '2.30',
   petList: [
     { name: 'Hippong', fragments: 0, img: 94, farm: true, index: 40, defaultTier: 1 },
     { name: 'Tinkey', fragments: 10, img: 6, farm: true, index: 13, defaultTier: 2 },
@@ -58,6 +58,10 @@ const originalData = {
     { name: 'Foxy', fragments: 0, img: 184, farm: true, index: 56, defaultTier: 57 },
     { name: 'Shadow', fragments: 0, img: 185, farm: true, index: 57, defaultTier: 58 },
     { name: 'Snow Bear', fragments: 0, img: 186, farm: true, index: 58, defaultTier: 59 },
+    { name: 'Combat', fragments: 0, img: 187, farm: true, index: 59, defaultTier: 60 },
+    { name: 'Rolly', fragments: 0, img: 188, farm: true, index: 60, defaultTier: 61 },
+    { name: 'Scourge', fragments: 0, img: 189, farm: true, index: 61, defaultTier: 62 },
+    { name: 'Lazy', fragments: 0, img: 190, farm: true, index: 62, defaultTier: 63 },
     { name: 'Joe', fragments: 10, img: 2, farm: false, index: 1, defaultTier: 47 },
     { name: 'Mummy', fragments: 10, img: 3, farm: false, index: 2, defaultTier: 48 },
     { name: 'Potang', fragments: 10, img: 5, farm: false, index: 4, defaultTier: 49 },
